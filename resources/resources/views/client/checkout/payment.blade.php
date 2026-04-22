@@ -19,8 +19,8 @@
                             {{-- TẠO QR CODE VIETQR --}}
                             @php
                                 $bankId = 'VCB'; // Mã ngân hàng (MB, VCB, TCB...)
-                                $accountNo = '1028805664'; // Số tài khoản CỦA BẠN
-                                $accountName = 'VUONG TUAN HUNG'; // Tên chủ tài khoản
+                                $accountNo = '10288056664'; // Số tài khoản CỦA BẠN
+                                $accountName = 'VUONG TUAN HUNG '; // Tên chủ tài khoản
                                 $amount = $order->total_amount;
                                 $content = 'DH' . $order->id; // Nội dung CK: DH123
 
