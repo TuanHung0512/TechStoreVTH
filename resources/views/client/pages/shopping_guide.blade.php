@@ -182,7 +182,7 @@
                             <h5 class="fw-bold mb-1">Bạn cần hỗ trợ thêm?</h5>
                             <p class="mb-0 text-muted">
                                 Nếu gặp khó khăn trong quá trình đặt hàng, vui lòng liên hệ Hotline
-                                <strong class="text-danger fs-5">1900 1234</strong> (8h00 - 21h00) để được nhân viên tư vấn trực tiếp.
+                                <strong class="text-danger fs-5">0986329841</strong> (8h00 - 21h00) để được nhân viên tư vấn trực tiếp.
                             </p>
                         </div>
                     </div>

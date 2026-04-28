@@ -4,7 +4,7 @@
 @section('css')
 <style>
     /* === CSS RIÊNG CHO TRANG CHÍNH SÁCH VẬN CHUYỂN === */
-    
+
     /* Card chính */
     .policy-card {
         border: none;
@@ -90,7 +90,7 @@
     .shipping-table tbody tr:hover {
         background-color: #f8f9fa;
     }
-    
+
     /* Mục Quy định */
     .rule-item {
         background: #fff;
@@ -142,7 +142,7 @@
         <div class="col-lg-10">
             <div class="card policy-card">
                 <div class="card-body p-4 p-md-5">
-                    
+
                     {{-- Header trang --}}
                     <div class="text-center mb-5">
                         <div class="d-inline-block bg-light rounded-circle p-3 mb-3">
@@ -151,7 +151,7 @@
                         <h2 class="page-title mb-3">CHÍNH SÁCH VẬN CHUYỂN</h2>
                         <p class="text-muted">Cam kết giao hàng nhanh chóng, an toàn đến tận tay quý khách trên toàn quốc.</p>
                     </div>
-                    
+
                     {{-- Box Ưu đãi --}}
                     <div class="promo-box mb-5">
                         <div class="promo-icon flex-shrink-0">
@@ -181,7 +181,7 @@
                                     <tr>
                                         <td><strong><i class="bi bi-geo-alt-fill text-danger me-2"></i>Nội thành Hà Nội</strong></td>
                                         <td>
-                                            <span class="badge bg-success bg-opacity-10 text-success border border-success px-2 py-1">Siêu tốc</span> 
+                                            <span class="badge bg-success bg-opacity-10 text-success border border-success px-2 py-1">Siêu tốc</span>
                                             Trong ngày hoặc 24h
                                         </td>
                                         <td class="fw-bold text-dark">30.000đ - 50.000đ <small class="fw-normal text-muted">(Grab/Ahamove)</small></td>
@@ -205,7 +205,7 @@
                     {{-- 2. Quy định kiểm tra hàng --}}
                     <div class="mb-5">
                         <h4 class="section-title">2. QUY ĐỊNH KIỂM TRA HÀNG (ĐỒNG KIỂM)</h4>
-                        
+
                         <div class="rule-item">
                             <i class="bi bi-box-seam text-success rule-icon"></i>
                             <div>
@@ -236,8 +236,6 @@
                         <h6 class="fw-bold text-uppercase text-muted mb-4 ls-1">Đối tác vận chuyển tin cậy</h6>
                         <div class="d-flex justify-content-center gap-4 gap-md-5 flex-wrap">
                             <img src="https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-GHTK-H.png" class="partner-logo" alt="GHTK">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Viettel_Post_logo.svg/2560px-Viettel_Post_logo.svg.png" class="partner-logo" alt="Viettel Post">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Grab_Logo.svg/1024px-Grab_Logo.svg.png" class="partner-logo" style="height: 30px; margin-top: 5px;" alt="Grab">
                             {{-- Bạn có thể thêm logo Ahamove, VNPost nếu muốn --}}
                         </div>
                     </div>

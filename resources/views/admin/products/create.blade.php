@@ -117,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- 5. (MỚI) Khối Apple / Máy tính bảng -->
                 <div class="card mb-3 spec-group" id="spec-group-apple" style="display: none;">
                     <div class="card-header">Thông số Apple / Máy tính bảng</div>
@@ -142,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- 6. (MỚI) Khối Thiết bị văn phòng (Máy in...) -->
                 <div class="card mb-3 spec-group" id="spec-group-office" style="display: none;">
                     <div class="card-header">Thông số Thiết bị văn phòng</div>
@@ -262,29 +262,24 @@
 @section('js')
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        
+
         // --- (ĐÃ SỬA LẠI ID THEO ẢNH 'image_31acc4.png') ---
-        
-        // ID 2, 3, 7: Laptop VP, Laptop Game, PC Đồng bộ
-        const computerCategoryIds = ['2', '3', '7']; 
-        
-        // ID 9: Màn hình máy tính
-        const monitorCategoryIds = ['9']; 
-        
-        // ID 8, 12: Linh kiện, Thiết bị lưu trữ
-        const ramStorageCategoryIds = ['8', '12'];
-        
-        // ID 10: Gaming Gear
-        const gearCategoryIds = ['10'];
+
+        // ID 2, 3, 4: Laptop VP, Laptop Game, PC Đồng bộ
+        const computerCategoryIds = ['2', '3', '4'];
+
+        // ID 7: Màn hình máy tính
+        const monitorCategoryIds = ['7'];
+
+        // ID 8: Linh kiện
+        const ramStorageCategoryIds = ['8'];
+
+        // ID 9: Gaming Gear
+        const gearCategoryIds = ['9'];
 
         // ID 5, 6: Apple, Máy tính bảng
         const appleCategoryIds = ['5', '6'];
-        
-        // ID 11: Thiết bị văn phòng
-        const officeCategoryIds = ['11'];
-        
-        // ID 13: Thiết bị mạng
-        const networkCategoryIds = ['13'];
+
         // --- HẾT PHẦN CÀI ĐẶT ---
 
         const categorySelect = document.getElementById('category-select');
@@ -292,9 +287,9 @@
 
         function toggleSpecGroups() {
             if (!categorySelect) return;
-            
+
             const selectedCategoryId = categorySelect.value;
-            
+
             // Ẩn tất cả các khối
             specGroups.forEach(group => {
                 group.style.display = 'none';

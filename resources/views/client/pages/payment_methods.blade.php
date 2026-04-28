@@ -286,7 +286,7 @@
                         <h5 class="fw-bold mb-2">Lưu ý quan trọng khi chuyển khoản:</h5>
                         <ul class="mb-0 ps-3 small">
                             <li class="mb-1">Nội dung chuyển khoản vui lòng ghi rõ: <span class="badge bg-warning text-dark font-monospace">TÊN + SĐT</span> (Ví dụ: NguyenVanA 0912345678).</li>
-                            <li>Sau khi chuyển khoản, hệ thống sẽ xác nhận trong vòng <strong>5-15 phút</strong>. Nếu quá thời gian, vui lòng gọi Hotline: <strong class="text-danger">1900 1234</strong>.</li>
+                            <li>Sau khi chuyển khoản, hệ thống sẽ xác nhận trong vòng <strong>5-15 phút</strong>. Nếu quá thời gian, vui lòng gọi Hotline: <strong class="text-danger">0986329841</strong>.</li>
                         </ul>
                     </div>
                 </div>

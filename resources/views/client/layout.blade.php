@@ -68,7 +68,7 @@
                         </div>
                         <div class="d-flex flex-column lh-1">
                             <span class="small text-muted" style="font-size: 0.8rem;">Hotline 24/7</span>
-                            <span class="fw-bold">1900.1234</span>
+                            <span class="fw-bold">0986329841</span>
                         </div>
                     </div>
 
@@ -158,14 +158,14 @@
                                 <ul class="dropdown-menu shadow-lg border-0 mt-0 rounded-0 rounded-bottom-3 p-2 w-100">
                                     <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 2]) }}"><i class="fas fa-laptop me-3 text-secondary" style="width: 20px;"></i> Laptop Văn Phòng</a></li>
                                     <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 3]) }}"><i class="fas fa-gamepad me-3 text-secondary" style="width: 20px;"></i> Laptop Gaming</a></li>
-                                    <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 7]) }}"><i class="fas fa-desktop me-3 text-secondary" style="width: 20px;"></i> PC Đồng bộ</a></li>
+                                    <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 4]) }}"><i class="fas fa-desktop me-3 text-secondary" style="width: 20px;"></i> PC Đồng bộ</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 5]) }}"><i class="fab fa-apple me-3 text-secondary" style="width: 20px;"></i> Apple</a></li>
                                     <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 6]) }}"><i class="fas fa-tablet-alt me-3 text-secondary" style="width: 20px;"></i> Máy tính bảng</a></li>
                                     <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 9]) }}"><i class="fas fa-tv me-3 text-secondary" style="width: 20px;"></i> Màn hình</a></li>
+                                    <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 7]) }}"><i class="fas fa-tv me-3 text-secondary" style="width: 20px;"></i> Màn hình</a></li>
                                     <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 8]) }}"><i class="fas fa-microchip me-3 text-secondary" style="width: 20px;"></i> Linh kiện</a></li>
-                                    <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 10]) }}"><i class="fas fa-headset me-3 text-secondary" style="width: 20px;"></i> Gear</a></li>
+                                    <li><a class="dropdown-item py-2 rounded-2" href="{{ route('client.shop', ['category' => 9]) }}"><i class="fas fa-headset me-3 text-secondary" style="width: 20px;"></i> Gear</a></li>
                                 </ul>
                             </li>
 
@@ -269,7 +269,7 @@
         </div>
     </footer>
     <div class="footer-bottom text-center text-secondary py-3">
-        <p class="mb-0">&copy; {{ date('Y') }} TechStoreVTH. Đồ án tốt nghiệp.</p>
+        <p class="mb-0">&copy; {{ date('Y') }} TechStoreVTH.</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

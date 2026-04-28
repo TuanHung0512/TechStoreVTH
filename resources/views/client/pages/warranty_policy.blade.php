@@ -253,12 +253,12 @@
                         <div class="col-md-4">
                             <div class="mb-2 text-primary"><i class="bi bi-geo-alt-fill fs-2"></i></div>
                             <h6 class="fw-bold">Địa chỉ nhận hàng</h6>
-                            <p class="text-muted small">123 Đường ABC, Quận Cầu Giấy, Hà Nội</p>
+                            <p class="text-muted small">Khâm Thiên, Đống Đa, Hà nội </p>
                         </div>
                         <div class="col-md-4">
                             <div class="mb-2 text-danger"><i class="bi bi-telephone-fill fs-2"></i></div>
                             <h6 class="fw-bold">Hotline Kỹ thuật</h6>
-                            <p class="text-muted small">1900 1234 (Nhánh 2)<br>Hỗ trợ 24/7</p>
+                            <p class="text-muted small">0986329841<br>Hỗ trợ 24/7</p>
                         </div>
                         <div class="col-md-4">
                             <div class="mb-2 text-success"><i class="bi bi-clock-fill fs-2"></i></div>
